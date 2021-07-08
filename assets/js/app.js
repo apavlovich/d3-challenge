@@ -166,7 +166,7 @@ function updateToolTip(chosenXaxis, chosenYaxis, circlesGroup) {
         console.log(demData)
 
       // Parse Data/Cast as numbers
-      demData.forEach((data) => {
+    demData.forEach((data) => {
         data.obesity = +data.obesity;
         data.smokes = +data.smokes; 
         data.healthcare = +data.healthcare;
